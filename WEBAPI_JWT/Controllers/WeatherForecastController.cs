@@ -8,7 +8,6 @@ using System.Threading.Tasks;
 
 namespace WEBAPI_JWT.Controllers
 {
-    [Authorize]
     [ApiController]
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
