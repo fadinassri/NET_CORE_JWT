@@ -36,6 +36,7 @@ namespace WEBAPI_JWT.Controllers
             var result = await  _DB.Employees.ToListAsync();
 
             return result;
+
         }
 
         [HttpGet("{id}")]
