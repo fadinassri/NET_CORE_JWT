@@ -27,13 +27,15 @@ namespace WEBAPI_JWT.Controllers
             _DB.Employees.Add(emp);
             int result = await _DB.SaveChangesAsync();
 
-            return result;
+            return Ok(1);
         }
 
         [HttpGet("GetAll")]
         public async Task<ActionResult<List<Employee>>> Get()
         {
             var result = await  _DB.Employees.ToListAsync();
+            if (result == null)
+                return new EmptyResult();
 
             return result;
 
@@ -42,9 +44,19 @@ namespace WEBAPI_JWT.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<Employee>> Get(int id)
         {
-            var result = await _DB.Employees.FirstOrDefaultAsync(x=>x.Id==id);
+            try
+            {
+                var result = await _DB.Employees.FirstOrDefaultAsync(x => x.Id == id);
 
-            return result;
+                if (result == null)
+                    return NotFound();
+
+                return result;
+            }
+            catch (Exception ex)
+            {
+                return new NotFoundResult();
+            }
         }
 
     }
