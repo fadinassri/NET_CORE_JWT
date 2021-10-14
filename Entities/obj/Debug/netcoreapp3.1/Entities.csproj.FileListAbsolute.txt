@@ -1,0 +1,10 @@
+C:\Users\fadin\source\repos\WEBAPI_JWT\Entities\bin\Debug\netcoreapp3.1\Entities.deps.json
+C:\Users\fadin\source\repos\WEBAPI_JWT\Entities\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\fadin\source\repos\WEBAPI_JWT\Entities\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\fadin\source\repos\WEBAPI_JWT\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.AssemblyReference.cache
+C:\Users\fadin\source\repos\WEBAPI_JWT\Entities\obj\Debug\netcoreapp3.1\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fadin\source\repos\WEBAPI_JWT\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfoInputs.cache
+C:\Users\fadin\source\repos\WEBAPI_JWT\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfo.cs
+C:\Users\fadin\source\repos\WEBAPI_JWT\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CoreCompileInputs.cache
+C:\Users\fadin\source\repos\WEBAPI_JWT\Entities\obj\Debug\netcoreapp3.1\Entities.dll
+C:\Users\fadin\source\repos\WEBAPI_JWT\Entities\obj\Debug\netcoreapp3.1\Entities.pdb

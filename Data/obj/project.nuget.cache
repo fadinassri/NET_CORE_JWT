@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "j2XBT9/a9rPo7KnfCG6HGPz4cu1UN4bOuPQpDGQRGf8kM25CWMRsjRVIzpvExBrcOTBLiY6Vs4XQ1hdKyB5uKQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\fadin\\source\\repos\\WEBAPI_JWT\\Data\\Data.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fadin\\.nuget\\packages\\fsharp.core\\5.0.0\\fsharp.core.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

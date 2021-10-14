@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31605.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WEBAPI_JWT", "WEBAPI_JWT\WEBAPI_JWT.csproj", "{401D565F-5A35-4EC8-B3BC-4964C8A6EF36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{591CBFC2-C1A1-42A9-8715-D7DFC3C70DCE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{401D565F-5A35-4EC8-B3BC-4964C8A6EF36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{401D565F-5A35-4EC8-B3BC-4964C8A6EF36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{401D565F-5A35-4EC8-B3BC-4964C8A6EF36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{401D565F-5A35-4EC8-B3BC-4964C8A6EF36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{591CBFC2-C1A1-42A9-8715-D7DFC3C70DCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{591CBFC2-C1A1-42A9-8715-D7DFC3C70DCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{591CBFC2-C1A1-42A9-8715-D7DFC3C70DCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{591CBFC2-C1A1-42A9-8715-D7DFC3C70DCE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B4AE2ED9-D706-4674-A355-5A57191BD826}
+	EndGlobalSection
+EndGlobal
